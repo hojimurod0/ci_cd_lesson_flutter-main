@@ -16,8 +16,11 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       home: Scaffold(
+        backgroundColor: Colors.white,
         appBar: AppBar(
+          backgroundColor: Colors.deepPurple,
           title: const Text('hi'),
+          leading: Icon(Icons.menu),
         ),
         body: const Center(
           child: Text('Hello, World!'),
